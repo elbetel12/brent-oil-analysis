@@ -1,0 +1,34 @@
+# Core Data Science
+pandas==2.0.3
+numpy==1.24.3
+scipy==1.10.1
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+plotly==5.14.1
+
+# Time Series Analysis
+statsmodels==0.14.0
+arch==6.2.0
+
+# Bayesian Modeling
+pymc==5.4.0
+arviz==0.15.1
+
+# Dashboard Backend
+flask==2.3.2
+flask-cors==4.0.0
+sqlalchemy==2.0.17
+
+# Dashboard Frontend (for reference)
+# react==18.2.0
+# react-dom==18.2.0
+# recharts==2.5.0
+
+# Utilities
+jupyter==1.0.0
+notebook==7.0.0
+ipython==8.14.0
+tqdm==4.65.0
+python-dotenv==1.0.0
