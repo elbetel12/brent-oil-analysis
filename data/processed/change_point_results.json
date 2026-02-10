@@ -1,0 +1,57 @@
+{
+  "analysis_metadata": {
+    "analysis_date": "2026-02-10 11:41:27",
+    "data_period": "2010-01-04 to 2022-11-14",
+    "total_observations": 3260,
+    "detection_methods": [
+      "CUSUM",
+      "Rolling Statistics",
+      "Mean Shift"
+    ],
+    "detection_thresholds": {
+      "cusum_threshold": 4,
+      "rolling_window": 30,
+      "mean_shift_window": 60
+    }
+  },
+  "summary_statistics": {
+    "total_change_points_detected": 53,
+    "significant_change_points": 1,
+    "primary_change_point_date": "2021-07-06"
+  },
+  "change_points": [
+    {
+      "rank": 1,
+      "date": "2021-07-06",
+      "index": 2914,
+      "detection_methods": [
+        "Rolling Statistics",
+        "Mean Shift"
+      ],
+      "statistical_significance": {
+        "t_statistic": 1.1705569989789388,
+        "p_value": 0.24447696525422605,
+        "significant": false
+      },
+      "regime_parameters": {
+        "before": {
+          "mean_return": 0.003874556381014713,
+          "std_return": 0.01417538552877838,
+          "annualized_return": 97.63882080157077,
+          "annualized_volatility": 22.502726908566853
+        },
+        "after": {
+          "mean_return": -8.5120873488038e-06,
+          "std_return": 0.02117347271271705,
+          "annualized_return": -0.21450460118985576,
+          "annualized_volatility": 33.61184591367689
+        }
+      },
+      "impact_metrics": {
+        "mean_change_percentage": -100.21969192113227,
+        "volatility_change_percentage": 49.367879058607585
+      },
+      "nearby_events": []
+    }
+  ]
+}
